@@ -8,3 +8,7 @@ export const defaultOptions = {
     preserveAspectRatio: "xMidYMid slice",
   },
 };
+
+export const logOut = () => {
+  localStorage.removeItem("token");
+};
